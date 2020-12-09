@@ -6,7 +6,10 @@ With LINE Biz+ co-worker
 - Blog: [blog_ch1](https://doorbw.tistory.com/241)
 ### ch2.
 - Blog: [blog_ch2-1](https://doorbw.tistory.com/242), [blog_ch2-2](https://doorbw.tistory.com/243)
-- Code: [code](./src/ch2) 
+- Code: [code](./src/main/kotlin/ch2) 
+### ch3.
+- Blog:
+- Code: [code](./src/main/kotlin/ch3)
 
 ## Reference
 - [Kotlin in Action](https://www.manning.com/books/kotlin-in-action)
