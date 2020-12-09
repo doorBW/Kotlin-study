@@ -22,6 +22,7 @@ fun <T> Collection<T>.joinToString(
 val String.lastChar: Char
     get() = get(length - 1)
 
+
 fun main(args: Array<String>) {
     // 3.3
     println("Kotlin".lastChar())
