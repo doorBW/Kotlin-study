@@ -18,9 +18,13 @@ public class Ch3 {
     public void test2(){
         final List<Integer> javaArrayList = Arrays.asList(1,2,3);
         final KotlinList kotlinList = new KotlinList();
+
         System.out.println(javaArrayList);
         System.out.println(kotlinList.getList());
-
         assertEquals(javaArrayList, kotlinList.getList());
+
+        System.out.println(javaArrayList.getClass());
+        System.out.println(kotlinList.getList().getClass());
+        assertEquals(javaArrayList.getClass(), kotlinList.getList().getClass());
     }
 }
