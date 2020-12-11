@@ -3,6 +3,7 @@ package ch3
 import groovy.util.GroovyTestCase.assertEquals
 import org.junit.Test
 
+
 class Ch3Test {
 
     @Test
@@ -49,6 +50,14 @@ class Ch3Test {
 
         val s = Something()
         s.method();
+    }
+
+    @Test
+    fun other(){
+        val set = setOf(1,2,3 ,"1", 2)
+        val map = hashMapOf(1 to 2, 1 to 3, "1" to 4)
+
+
     }
 
 

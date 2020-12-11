@@ -2,7 +2,7 @@ package ch3
 
 abstract class AbstractBase{
     abstract fun parentFunction()
-    final fun notOverrideFunction(){}
+    fun notOverrideFunction(){}
 }
 
 open class AbstractOverrideExample() : AbstractBase(){
