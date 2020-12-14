@@ -77,4 +77,38 @@ class Ch4test(){
         CntTestSecondClass("tc2")
         println("firstCnt: $firstCnt , secondCnt: $secondCnt")
     }
+
+    @Test
+    fun test5(){ // 출력 순서 맞추기.
+        val lazyVal by lazy  {
+            println("lazy value init!")
+            "lazy!"
+        }
+        println("start")
+        println("call lazy: $lazyVal")
+        println("end")
+    }
+
+    @Test
+    fun test6(){
+        class EqualsTest(val name:String, val number:Int){
+            override fun equals(other: Any?): Boolean {
+                if(other == null || other !is EqualsTest) return false
+                return name==other.name && number==other.number
+            }
+        }
+
+        val e1 = EqualsTest("철수",1)
+        val e2 = EqualsTest("영희", 2)
+        val e3 = EqualsTest("철수", 1)
+        val e4 = e1
+
+        println(e1 == e2)
+        println(e1 == e3)
+        println(e1 == e4)
+        println(e1 === e2)
+        println(e1 === e3)
+        println(e1 === e4)
+
+    }
 }
