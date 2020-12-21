@@ -13,6 +13,14 @@ class Ch6Test{
 
     @Test
     fun test2(){
-
+        var numberList = listOf(1L,2L,3L,4L,5L)
+        val n1 = numberList.random()
+        val n2 = numberList.random()
+        numberList.plus(n1*n2)
+        println(4 in numberList)
+        /**
+         * 2. println의 결과는?
+         * 컴파일되지 않는다. 같은 타입이 아니기 때문에.
+         */
     }
 }
