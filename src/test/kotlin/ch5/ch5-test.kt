@@ -23,7 +23,6 @@ class Ch5Test {
         }
         println(sum(1, 2))
         println()
-
         /** 1. 출력 순서
          * outer function called!
          * 3
@@ -57,6 +56,7 @@ class Ch5Test {
          * 조건을 만족하는 원소의 개수를 구하는데에 있어서
          * filter().size 와 count() 으로 같은 값을 얻을 수 있지만,
          * 어떤 것이 더 적합한가?
+         * count가 좋다. filter를 이용하면 중간컬렉션이 생긴다.
          */
     }
 }
