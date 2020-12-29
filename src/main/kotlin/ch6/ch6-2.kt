@@ -16,5 +16,5 @@ fun main(){
 
     val x =1
     val list = listOf(1L, 2L, 3L)
-    println(x in list)
+    //println(x in list)
 }
