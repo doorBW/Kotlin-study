@@ -19,5 +19,8 @@ With LINE Biz+ co-worker
 ### ch6.
 - Blog:   
 - Code: [code](./src/main/kotlin/ch6)
+### ch7.
+- Blog:   
+- Code: [code](./src/main/kotlin/ch7)
 ## Reference
 - [Kotlin in Action](https://www.manning.com/books/kotlin-in-action)
