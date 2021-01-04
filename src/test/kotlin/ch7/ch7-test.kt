@@ -60,4 +60,24 @@ class Ch7Test{
         println(p1)
         println(p3)
     }
+
+    @Test
+    fun test3(){
+        /**
+         * 3. 출력 확인하기
+         * 10
+         * 20
+         * 200
+         * 100
+         */
+        val p = Point(10,20)
+        val (x,y) = p
+        println(x)
+        println(y)
+
+        val p2 = Point(y=100, x=200)
+        val (x2, y2) = p2
+        println(x2)
+        println(y2)
+    }
 }
