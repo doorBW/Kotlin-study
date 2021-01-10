@@ -1,9 +1,7 @@
 package ch7
 
 import org.junit.Test
-
-
-
+import java.math.BigDecimal
 
 
 class Ch7Test{
@@ -27,6 +25,7 @@ class Ch7Test{
         var p2 = Point1(1,1)
         var p3 = p1
         println(p1 === p3)
+
         p1 += p2
         println(p1 === p3)
         println(p1)
@@ -55,6 +54,7 @@ class Ch7Test{
         var p2 = Point2(1,1)
         var p3 = p1
         println(p1 === p3)
+
         p1 += p2
         println(p1 === p3)
         println(p1)
@@ -79,5 +79,8 @@ class Ch7Test{
         val (x2, y2) = p2
         println(x2)
         println(y2)
+        var a = 1;
+        println(++a);
+        
     }
 }
